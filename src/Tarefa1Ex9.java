@@ -24,6 +24,7 @@ public class Tarefa1Ex9 {
                 }
                     else{
                             System.out.println("Operador inválido");}
-         }
+         sc.close();
+                        }
 }
     

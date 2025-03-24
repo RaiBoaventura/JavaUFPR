@@ -1,4 +1,3 @@
-import java.text.DecimalFormat;
 import java.util.Scanner;
 public class Tarefa2Ex5 {
     public static void main(String[] args) {
@@ -14,5 +13,6 @@ public class Tarefa2Ex5 {
 
         float lucroMultas = ((qtdCd/3)*0.1f*precoCd*0.1f);
         System.out.println("Lucro multas é de " + lucroMultas);
+        sc.close();
     }   
 }

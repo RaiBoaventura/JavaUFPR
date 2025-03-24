@@ -12,5 +12,6 @@ public class Tarefa2Ex4 {
         float v = (d/t);
         DecimalFormat df = new DecimalFormat("0.00");
         System.out.println("A velocidade média é: " + df.format(v) + "Km/H");
+        sc.close();
     }
 };
