@@ -22,5 +22,6 @@ public class Tarefa2Ex8 {
         double r = Math.sqrt(dx+dy);
 
         System.out.printf("A distância entre os dois pontos é: %.2f\n", r);
+        sc.close();
     }   
 }
