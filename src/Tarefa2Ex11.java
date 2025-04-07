@@ -48,5 +48,6 @@ public class Tarefa2Ex11 {
         }
 
         System.out.println("O bônus anual é: R$" + salario);
+        sc.close();
     }
 }

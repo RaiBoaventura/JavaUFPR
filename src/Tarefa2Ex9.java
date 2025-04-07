@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.math.*;
 
 public class Tarefa2Ex9 {
     public static void main(String[] args) {
@@ -20,6 +19,7 @@ public class Tarefa2Ex9 {
         double r2 = (-b - Math.sqrt(delta)) / (2 * a);        
 
         System.out.println("VAlor das raizes são: " + r1 + " e " + r2);
+        sc.close();
     }
 
 }
