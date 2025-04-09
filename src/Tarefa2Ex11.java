@@ -10,7 +10,6 @@ public class Tarefa2Ex11 {
 
         System.out.println("Qual o salário: ");
         salario = sc.nextDouble();
-        sc.nextLine(); // Limpa o buffer após nextDouble
 
         System.out.println("Qual sua função atual? \n1 - Diretor\n2 - Gerente\n3 - Analista\n4 - Programador\n5 - Auxiliar de Limpeza");
         String cargo = sc.nextLine();
